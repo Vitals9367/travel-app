@@ -9,7 +9,7 @@ const Hero = () => {
         {/* LEFT */}
         <div className='relative z-20 flex flex-1 flex-col xl:w-1/2'>
             <Image 
-                src="/camp.svg"
+                src="/travel-app/camp.svg"
                 alt="camp"
                 width={50}
                 height={50}
@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className='flex items-center gap-2'>
                     {Array(5).fill(1).map((_, index) => (
                         <Image 
-                            src="/star.svg"
+                            src="/travel-app/star.svg"
                             key={index}
                             alt="star"
                             width={24}
