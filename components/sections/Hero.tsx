@@ -47,7 +47,7 @@ const Hero = () => {
                 <Button 
                     type='button' 
                     title='How we work?'
-                    icon='/play.svg' 
+                    icon='/travel-app/play.svg' 
                     variant='btn_white_text' 
                 />
             </div>
